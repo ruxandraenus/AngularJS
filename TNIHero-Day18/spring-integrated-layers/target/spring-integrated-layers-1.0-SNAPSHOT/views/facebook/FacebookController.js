@@ -1,0 +1,3 @@
+function FacebookController($scope,$location){
+
+}

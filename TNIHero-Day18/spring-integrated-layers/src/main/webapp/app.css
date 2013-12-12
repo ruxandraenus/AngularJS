@@ -1,0 +1,61 @@
+.view_readonly {
+    background-color: #e1e1e8;
+    font-size: small;
+
+    width: 100%;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.unbutton {
+    background-image: none;
+    box-shadow: 0 0 1px 0 black;
+    position: relative;
+}
+
+.centered, .centered_full {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    margin: auto;
+}
+
+.centered_full {
+    width: 50%;
+}
+
+.bold_relative {
+    font-weight: bold;
+    position: relative;
+}
+
+.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('http://localhost:9898/simcp/jquery/css/images/loading.gif')
+    50% 50%
+    no-repeat;
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}

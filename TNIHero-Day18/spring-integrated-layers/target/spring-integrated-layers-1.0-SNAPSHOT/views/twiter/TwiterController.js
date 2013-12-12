@@ -1,0 +1,3 @@
+function TwiterController($scope,$location){
+
+}

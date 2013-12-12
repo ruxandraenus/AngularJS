@@ -1,0 +1,3 @@
+function LinkedInController($scope,$location){
+
+}
